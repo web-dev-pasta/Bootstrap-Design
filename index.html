@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+        <button
+          class="navbar-toggler nav-btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link text-capitalize"
+                >what you'll learn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link text-capitalize"
+                >questions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link text-capitalize"
+                >instructors</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link text-capitalize">skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="landing bg-dark pt-5 pb-5 pb-xl-0">
+      <div class="container pt-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 text-center text-lg-start">
+            <p class="mb-3 text-white h1">
+              Become a
+              <span class="text-warning text-capitalize">web developer</span>
+            </p>
+            <p class="text-white">
+              We focus on teaching our students the fundamentals of the latest
+              and greatest technologies to prepare them for the first dev role
+            </p>
+            <button class="btn btn-primary text-capitalize">
+              start the enrollment
+            </button>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center d-none d-lg-flex">
+            <img src="img/showcase.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="newsletter bg-primary py-4">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="text-capitalize text-light text-center mb-4 mb-md-0">
+            sign up for our newsletter
+          </h3>
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Email"
+            />
+            <button class="btn btn-dark" type="button" id="button-addon2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="boxes py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg col-md-6 mb-3">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Delectus, quidem quaerat dolores reprehenderit ab dicta.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-md-6 mb-3">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-person"></i>
+                </div>
+                <h3 class="card-title mb-3">Hybrid</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Delectus, quidem quaerat dolores reprehenderit ab dicta.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-md-6 mx-auto mb-3">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Delectus, quidem quaerat dolores reprehenderit ab dicta.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="learn py-5" id="learn">
+      <div class="container">
+        <div class="row align-items-center gap-5">
+          <div class="col-lg d-flex justify-content-center">
+            <img
+              src="img/fundamentals.svg"
+              class="learn-img img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg">
+            <h1 class="text-capitalize">learn the fundamentals</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              quae autem recusandae sint minima harum?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At nemo
+              explicabo nisi assumenda. Dolorem saepe temporibus laboriosam illo
+              ad deleniti, assumenda illum suscipit magnam ea, cum quasi
+              doloremque autem iusto?
+            </p>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Read More
+              </button>
+              <ul class="dropdown-menu bg-secondary">
+                <li>
+                  <button
+                    class="dropdown-item text-light text-capitalize"
+                    type="button"
+                  >
+                    what are fundamentals?
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="text-capitalize dropdown-item text-light"
+                    type="button"
+                  >
+                    more about HTML - CSS
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="dropdown-item text-light text-capitalize"
+                    type="button"
+                  >
+                    more about JS
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="learn-react py-5 bg-dark text-light">
+      <div class="container py-5">
+        <div class="row align-items-center gap-5">
+          <div class="col-lg">
+            <h1 class="text-capitalize">learn react</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              quae autem recusandae sint minima harum?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At nemo
+              explicabo nisi assumenda. Dolorem saepe temporibus laboriosam illo
+              ad deleniti, assumenda illum suscipit magnam ea, cum quasi
+              doloremque autem iusto?
+            </p>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Read More
+              </button>
+              <ul class="dropdown-menu bg-secondary">
+                <li>
+                  <button
+                    class="dropdown-item text-light text-capitalize"
+                    type="button"
+                  >
+                    what is react?
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="text-capitalize dropdown-item text-light"
+                    type="button"
+                  >
+                    more about react
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="dropdown-item text-light text-capitalize"
+                    type="button"
+                  >
+                    why react important?
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-lg d-flex justify-content-center order-first order-lg-last"
+          >
+            <img src="img/react.svg" class="learn-img img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="questions py-5" id="questions">
+      <div class="container">
+        <h1 class="main-heading text-center text-capitalize mb-5">
+          Frequently Asked Questions
+        </h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is Web Development?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>Web development</strong> refers to the process of
+                creating and maintaining websites. It includes web design, web
+                programming, database management, and website functionality.
+                Developers use languages like HTML, CSS, and JavaScript to build
+                and enhance websites.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What are Frontend and Backend Development?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>Frontend development</strong> focuses on the visual and
+                interactive aspects of a website that users see. Technologies
+                include HTML, CSS, JavaScript, and frameworks like React or
+                Vue.js.<br />
+                <strong>Backend development</strong> deals with server-side
+                logic, databases, and APIs to handle requests and store data. It
+                involves languages like Python, PHP, Node.js, and databases like
+                MySQL and MongoDB.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What is Responsive Web Design?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>Responsive web design (RWD)</strong> ensures that a
+                website looks and functions well on different devices and screen
+                sizes. It is achieved using flexible grids, media queries, and
+                frameworks like Bootstrap.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                What are the Most Popular Web Development Frameworks?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Popular frameworks include:
+                <ul>
+                  <li><strong>Frontend:</strong> React, Angular, Vue.js</li>
+                  <li>
+                    <strong>Backend:</strong> Express.js (Node.js), Django
+                    (Python), Laravel (PHP), Ruby on Rails
+                  </li>
+                  <li>
+                    <strong>CSS Frameworks:</strong> Bootstrap, Tailwind CSS
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                How Can I Start Learning Web Development?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Start by learning <strong>HTML, CSS, and JavaScript</strong>.
+                Use free resources like MDN Web Docs, FreeCodeCamp, or
+                W3Schools. Practice by building small projects, then move on to
+                frameworks and backend technologies.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructors bg-primary py-5" id="instructors">
+      <div class="container">
+        <h2 class="text-center text-light text-capitalize">our instructors</h2>
+        <p class="mb-5 lead text-center text-light">
+          Our instructors all have 5+ years working as a web developer in the
+          industry
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/12.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Nivin Karam</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Autem minima rerum, numquam cumque accusamus nemo.
+                </p>
+                <div class="icons d-flex gap-3 justify-content-center mb-3">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <button class="btn btn-primary">Hire Me</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/18.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">John Doe</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Autem minima rerum, numquam cumque accusamus nemo.
+                </p>
+                <div class="icons d-flex gap-3 justify-content-center mb-3">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <button class="btn btn-primary">Hire Me</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/9.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Katrina Safina</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Autem minima rerum, numquam cumque accusamus nemo.
+                </p>
+                <div class="icons d-flex gap-3 justify-content-center mb-3">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <button class="btn btn-primary">Hire Me</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/54.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Farida Owe</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Autem minima rerum, numquam cumque accusamus nemo.
+                </p>
+                <div class="icons d-flex gap-3 justify-content-center mb-3">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <button class="btn btn-primary">Hire Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skills py-5" id="skills">
+      <h1 class="main-heading text-center mb-5">Our Skills</h1>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 d-none d-lg-inline">
+            <img src="img/skills.svg" class="learn-img" alt="" />
+          </div>
+          <div class="col-md-6 flex-fill">
+            <div class="skills">
+              <div class="skill">
+                <p class="m-0">HTML</p>
+                <div
+                  class="progress mb-3"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 90%">90%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <p class="m-0">CSS</p>
+                <div
+                  class="progress mb-3"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 80%">80%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <p class="m-0">JS</p>
+                <div
+                  class="progress mb-3"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 70%">70%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <p class="m-0">BootStrap</p>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 85%">85%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="spikes"></section>
+    <div class="contact py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="text-center text-capitalize mb-5">contact info</h1>
+            <div class="locations">
+              <p class="pb-3 text-center text-md-start">
+                <b class="text-capitalize">main location:</b> 50 Main st, Boston
+                MA
+              </p>
+              <p class="pb-3 text-center text-md-start">
+                <b class="text-capitalize">enrollment phone:</b> (555) 555-5555
+              </p>
+              <p class="pb-3 text-center text-md-start">
+                <b class="text-capitalize">student phone:</b> (333) 333-3333
+              </p>
+              <p class="pb-3 text-center text-md-start">
+                <b class="text-capitalize">enrollment email:</b> (555)
+                enroll@frontendbc.test
+              </p>
+              <p class="pb-3 text-center text-md-start">
+                <b class="text-capitalize">student email:</b>
+                student@frontendbc.test
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 order-first order-md-last mb-3 mb-md-0 d-flex justify-content-center"
+          >
+            <img
+              src="img/undraw_current-location_c8qn.svg"
+              class=".learn-img"
+              style="width: 80%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer position-relative p-5 bg-dark d-flex justify-content-center align-items-center text-light"
+    >
+      <div class="container position-relative">
+        <p class="m-0 lead fw-bold text-center">
+          Copyright &copy; 2025 Frontend Bootcamp
+        </p>
+        <a href="#" class="position-absolute d-none d-md-flex">
+          <i class="fa-solid fa-arrow-up h1"></i>
+        </a>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
