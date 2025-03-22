@@ -114,9 +114,7 @@ h1.main-heading::before {
   color: #000;
 }
 .instructors .container .row .card .icons i:nth-child(3):hover {
-  background: linear-gradient(45deg, white, red, blue);
-  background-clip: text;
-  color: transparent;
+  color: #db4437;
 }
 .instructors .container .row .card .icons i:nth-child(4):hover {
   color: #0077b5;
